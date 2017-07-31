@@ -1,5 +1,7 @@
 # vue-hellojs
-A small wrapper for integrating HelloJs to Vuejs
+A small wrapper for integrating [HelloJs](https://github.com/MrSwitch/hello.js) to Vuejs.
+
+HelloJs is a simple and easy to use library for implementing Social Login in web app.
 
 ## How to install:
 ### CommonJS:
