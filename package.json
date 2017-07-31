@@ -1,11 +1,9 @@
 {
   "name": "vue-hello",
   "version": "0.0.1",
-  "description": "A small wrapper for integrating hellojs to Vuejs",
+  "description": "A small wrapper for integrating HelloJs to Vuejs",
   "main": "dist/vue-hello.min.js",
-  "scripts": {
-    "test": "npm run test"
-  },
+  "scripts": {},
   "files": [
     "dist",
     "src"
@@ -17,9 +15,11 @@
   "keywords": [
     "vue",
     "hellojs",
+    "login",
+    "sociallogin",
     "wrapper"
   ],
-  "author": "Nguyen Quoc Anh (jacobgoh101)",
+  "author": "Jacob Goh (jacobgoh101)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jacobgoh101/vue-hello/issues"
