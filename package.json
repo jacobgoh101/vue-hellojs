@@ -1,8 +1,8 @@
 {
-  "name": "vue-hello",
+  "name": "vue-hellojs",
   "version": "0.0.1",
   "description": "A small wrapper for integrating HelloJs to Vuejs",
-  "main": "dist/vue-hello.min.js",
+  "main": "dist/vue-hellojs.min.js",
   "scripts": {},
   "files": [
     "dist",
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jacobgoh101/vue-hello.git"
+    "url": "git+https://github.com/jacobgoh101/vue-hellojs.git"
   },
   "keywords": [
     "vue",
@@ -22,9 +22,9 @@
   "author": "Jacob Goh (jacobgoh101)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jacobgoh101/vue-hello/issues"
+    "url": "https://github.com/jacobgoh101/vue-hellojs/issues"
   },
-  "homepage": "https://github.com/jacobgoh101/vue-hello#readme",
+  "homepage": "https://github.com/jacobgoh101/vue-hellojs#readme",
   "devDependencies": {
     "babel-core": "^6.18.0",
     "babel-preset-es2015": "^6.18.0",

@@ -1,19 +1,19 @@
-# vue-hello
+# vue-hellojs
 A small wrapper for integrating HelloJs to Vuejs
 
 ## How to install:
 ### CommonJS:
 ```
-npm install --save hellojs vue-hello
+npm install --save hellojs vue-hellojs
 or
-yarn add hellojs vue-hello
+yarn add hellojs vue-hellojs
 ```
 
 And in your entry file:
 ```
 import Vue from 'vue';
 const HelloJs = require('hellojs/dist/hello.all.min.js');
-const VueHello = require('vue-hello');
+const VueHello = require('vue-hellojs');
 
 HelloJs.init({
   google: GOOGLE_APP_CLIENT_ID

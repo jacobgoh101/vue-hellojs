@@ -8,9 +8,9 @@ gulp.task('default', () => {
     .pipe(babel({
       presets: ['es2015']
     }))
-    .pipe(rename('vue-hello.es5.js'))
+    .pipe(rename('vue-hellojs.es5.js'))
     .pipe(gulp.dest('dist'))
     .pipe(uglify())
-    .pipe(rename('vue-hello.min.js'))
+    .pipe(rename('vue-hellojs.min.js'))
     .pipe(gulp.dest('dist'));
 });
