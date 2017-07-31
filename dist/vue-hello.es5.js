@@ -10,31 +10,25 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
    * @param hellojs
    */
 
-  function plugin(Vue, hellojs) {
+  function plugin(Vue, hello) {
 
     if (plugin.installed) {
       return;
     }
     plugin.installed = true;
 
-    if (!hellojs) {
-      console.error('You have to install hellojs');
+    if (!hello) {
+      console.error('You have to install hello');
       return;
     }
 
-    Vue.hellojs = hellojs;
+    Vue.hello = hello;
 
     Object.defineProperties(Vue.prototype, {
 
-      hellojs: {
+      hello: {
         get: function get() {
-          return hellojs;
-        }
-      },
-
-      $http: {
-        get: function get() {
-          return hellojs;
+          return hello;
         }
       }
 
@@ -47,7 +41,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
     define([], function () {
       return plugin;
     });
-  } else if (window.Vue && window.hellojs) {
-    Vue.use(plugin, window.hellojs);
+  } else if (window.Vue && window.hello) {
+    Vue.use(plugin, window.hello);
   }
 })();

@@ -1,34 +1,34 @@
-# vue-hellojs
+# vue-hello
 A small wrapper for integrating hellojs to Vuejs
 
 ## How to install:
 ### CommonJS:
 ```
-npm install --save hellojs vue-hellojs
+npm install --save hellojs vue-hello
 ```
 
 And in your entry file:
 ```
 import Vue from 'vue'
 import hellojs from 'hellojs'
-import Vuehellojs from 'vue-hellojs'
+import Vuehello from 'vue-hello'
 
-Vue.use(Vuehellojs, hellojs)
+Vue.use(Vuehello, hellojs)
 ```
 
 ### Script:
-Just add 3 scripts in order: `vue`, `hellojs` and `vue-hellojs` to your `document`.
+Just add 3 scripts in order: `vue`, `hellojs` and `vue-hello` to your `document`.
 
 ## Usage:
 This wrapper bind `hellojs` to `Vue` or `this` if you're using single file component.
 
-You can `hellojs` like this:
+You can `hello` like this:
 ```
-Vue.hellojs.get(api).then((response) => {
+Vue.hello.get(api).then((response) => {
   console.log(response.data)
 })
 
-this.hellojs.get(api).then((response) => {
+this.hello.get(api).then((response) => {
   console.log(response.data)
 })
 
