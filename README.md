@@ -52,15 +52,14 @@ export default {
     }
   }, methods: {
     auth(network) {
-      let hello = this.hello;
+      const hello = this.hello;
       hello(network).login().then(() => {
         const authRes = hello(network).getAuthResponse();
         /*
           performs operations using the token from authRes
         */
-        let profile = "";
         hello(network).api('me').then(function (json) {
-          profile = json;
+          const profile = json;
           /*
             performs operations using the user info from profile
           */
