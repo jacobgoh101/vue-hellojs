@@ -20,9 +20,10 @@ const HelloJs = require('hellojs/dist/hello.all.min.js');
 const VueHello = require('vue-hellojs');
 
 HelloJs.init({
-  google: GOOGLE_APP_CLIENT_ID
+  google: GOOGLE_APP_CLIENT_ID,
+  facebook: FACEBOOK_APP_CLIENT_ID
 }, {
-  redirect_uri: 'google-oauth2callback/'
+  redirect_uri: 'authcallback/'
 });
 Vue.use(VueHello, HelloJs);
 ```
