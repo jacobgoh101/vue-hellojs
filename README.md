@@ -55,9 +55,15 @@ export default {
       let hello = this.hello;
       hello(network).login().then(() => {
         const authRes = hello(network).getAuthResponse();
+        /*
+          performs operations using the token from authRes
+        */
         let profile = "";
         hello(network).api('me').then(function (json) {
           profile = json;
+          /*
+            performs operations using the user info from profile
+          */
         });
       })
     }
