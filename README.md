@@ -3,6 +3,8 @@ A small wrapper for integrating [HelloJs](https://github.com/MrSwitch/hello.js) 
 
 HelloJs is a simple and easy to use library for implementing Social Login in web app.
 
+[Demo](https://vue-hellojs-demo.surge.sh)
+
 ## How to install:
 ### CommonJS:
 ```
